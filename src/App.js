@@ -3,13 +3,14 @@ import PdfUploader from "./components/PdfUploader";
 import ChatComponent from "./components/ChatComponent";
 import RenderQA from "./components/RenderQA";
 import { Layout, Typography } from "antd";
+import VoiceInterface from "./components/VoiceInterface";
 
 
 const chatComponentStyle = {
   position: "fixed",
   bottom: "0",
   width: "80%",
-  left: "10%", 
+  left: "10%", // this will center it because it leaves 10% space on each side
   marginBottom: "20px",
 };
 
@@ -21,7 +22,7 @@ const pdfUploaderStyle = {
 
 
 const renderQAStyle = {
-  height: "50%", 
+  height: "50%", // adjust the height as you see fit
   overflowY: "auto",
 };
 
