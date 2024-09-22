@@ -20,7 +20,7 @@ cb(null, file.originalname);
 });
 const upload = multer({ storage: storage });
 
-const PORT = 5001;
+const port = process.env.PORT || 8080;
 
 let filePath;
 
