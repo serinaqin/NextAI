@@ -1,3 +1,22 @@
+# NextAI
+This is a web application where users can upload pdf files and ask LLM(Large Language Models) any questions about this file. This web app also has chat mode besides typing, which allows users to "speak" to LLM and get text-to-speech answers.
+
+# Tech stacks
+Frontend: React, Ant Design
+
+Backend: Express, Node.js, LangChain, gpt-3.5-turbo API
+
+CI/CD: Google Cloud Run, Docker
+
+# Demo Link
+https://nextai-demo-serinaqin-716352390133.us-central1.run.app/
+
+# Demo Picture
+![image](https://github.com/user-attachments/assets/d3ba7924-8ec6-4f09-892f-41e5d2ed8d7f)
+
+# Demo Vedio
+https://github.com/user-attachments/assets/24dd1516-4d3c-4c16-8349-f65b60229fd9
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
