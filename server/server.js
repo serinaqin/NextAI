@@ -35,6 +35,6 @@ const resp = await chat(filePath, req.query.question); // Pass the file path to 
 res.send(resp.text);
 });
 
-app.listen(PORT, () => {
-console.log(`Server is running on port ${PORT}`);
+app.listen(port, () => {
+console.log(`Server is running on port ${port}`);
 });

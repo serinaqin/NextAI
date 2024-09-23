@@ -5,7 +5,8 @@ import { message, Upload } from "antd";
 
 const { Dragger } = Upload;
 
-const DOMAIN = "http://localhost:5001";
+// const DOMAIN = process.env.REACT_APP_BACKEND_URL;
+const DOMAIN = "https://backend-716352390133.us-central1.run.app/";
 
 const uploadToBackend = async (file) => {
   const formData = new FormData();
